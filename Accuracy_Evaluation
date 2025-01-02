@@ -1,0 +1,22 @@
+
+--- Random Forest Evaluation ---
+              precision    recall  f1-score   support
+
+           0       0.46      0.32      0.38        65
+           1       0.58      0.71      0.63        85
+
+    accuracy                           0.54       150
+   macro avg       0.52      0.51      0.51       150
+weighted avg       0.52      0.54      0.52       150
+AUC: 0.54
+
+--- Gradient Boosting Evaluation ---
+              precision    recall  f1-score   support
+
+           0       0.42      0.25      0.31        65
+           1       0.56      0.74      0.64        85
+
+    accuracy                           0.53       150
+   macro avg       0.49      0.49      0.48       150
+weighted avg       0.50      0.53      0.50       150
+AUC: 0.53
